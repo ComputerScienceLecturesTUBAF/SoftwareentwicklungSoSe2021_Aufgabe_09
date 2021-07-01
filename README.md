@@ -8,7 +8,8 @@ SWE: 5. Juli - 9. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 | login        |   total_added_lines |   total_removed_lines |
 |:-------------|--------------------:|----------------------:|
-| SebastianZug |                 207 |                    17 |
+| SebastianZug |                 208 |                    18 |
+| actions-user |                   3 |                     1 |
 
 ## Idee der Übung
 

@@ -1,4 +1,4 @@
-name: Add activity table
+ame: Add activity table
 
 on:
   push:
@@ -18,12 +18,8 @@ jobs:
         uses: actions/checkout@v2
         with:
             path: "repository/Versions/repo/"
+            fetch-depth: 0
 
-      - name: Show repo
-        run: |
-             cd repository/Versions/repo/
-             git log
-             
       - name: Install pipenv
         run: | 
              pip install pipenv
@@ -46,10 +42,12 @@ jobs:
          
       - name: Commit files
         run: |
+             cd repository/Versions/repo
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
-             git add repository/Versions/repo/README.md
+             git add README.md
              git commit -m "Add new statistics" -a
+             
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:

@@ -33,11 +33,16 @@ if __name__ == "__main__":
     
     # Generate Table 
     pdFileEdits = pdEdits.groupby(['commit_sha']).first()
-    counts = pdFileEdits.groupby(['login']).agg({'total_added_lines': 'sum', 'total_removed_lines': 'sum'})
-    print(counts.to_markdown())
+    counts = pdFileEdits.groupby(['login']).agg({'total_added_lines': 'sum', 'total_removed_lines': 'sum'}).reset_index()
+    
+    blacklist = ["github-classroom[bot]","actions-user"]
+    counts = counts[~counts.login.isin(blacklist)]
+
+    print(counts.to_markdown(index=False))
+        
     with open(readmefilename, 'r') as filehandle:
         filecontent = filehandle.read()
     newfilecontent = replaceTextBetween(filecontent, "## Beiträge", "## Idee der Übung",
-                                        '\n\n' + counts.to_markdown() + '\n\n')
+                                        '\n\n' + counts.to_markdown(index=False) + '\n\n')
     with open(readmefilename, 'w') as filehandle:
         filehandle.write(newfilecontent)

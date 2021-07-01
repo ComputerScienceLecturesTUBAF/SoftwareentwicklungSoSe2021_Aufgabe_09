@@ -5,7 +5,7 @@ on: push
 jobs:
   generate_contributions_table:
     runs-on: ubuntu-latest
-    #if: github.event.pusher.name != 'SebastianZug'
+    if: github.event.pusher.name != 'SebastianZug'
     steps:
       # Checkout repository
       - name: Check out current repository

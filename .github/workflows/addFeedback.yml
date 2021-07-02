@@ -38,14 +38,14 @@ jobs:
         run: |
              cp  repository/Versions/repo/.github/workflows/embedTable.py .
              pipenv run python embedTable.py 
-             cat repository/Versions/repo/README.md
+             mv Contributions.png repository/Versions/repo/Contributions.png
          
       - name: Commit files
         run: |
              cd repository/Versions/repo
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
-             git add README.md
+             git add Contributions.png
              git commit -m "Add new statistics" -a
              git pull --rebase
              

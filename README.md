@@ -6,7 +6,7 @@ SWE: 5. Juli - 9. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 ## Beiträge der Teammitglieder
 
-![Werden ab dem ersten Commit eingefügt](https://raw.githubusercontent.com//ComputerScienceLecturesTUBAF/SoftwareentwicklungSoSe2021_Aufgabe_8/analytics/Contributions.png)
+![Werden ab dem ersten Commit eingefügt](https://raw.githubusercontent.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/analytics/Contributions.png)
 
 ## Idee der Übung
 

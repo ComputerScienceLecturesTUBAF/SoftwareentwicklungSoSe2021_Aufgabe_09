@@ -20,7 +20,6 @@ jobs:
              pip install pipenv
              pipenv --python 3.8
              pipenv install github2pandas 
-             pipenv install tabulate
              pipenv install dataframe_image
              pipenv install matplotlib
              pipenv install lxml

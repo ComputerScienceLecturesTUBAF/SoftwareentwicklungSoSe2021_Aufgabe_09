@@ -52,3 +52,4 @@ jobs:
              github_token: ${{ secrets.GITHUB_TOKEN }}
              branch: main
              directory: "repository/Versions/repo/"
+             force: true

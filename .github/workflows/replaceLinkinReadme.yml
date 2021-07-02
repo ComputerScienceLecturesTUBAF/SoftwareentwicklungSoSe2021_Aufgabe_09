@@ -24,7 +24,7 @@ jobs:
         env: 
              TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-             pipenv run python .github/workflows/embedReference.py 
+             pipenv run python .github/workflows/addReferenceLink.py 
              cat README.md
           
       - name: Commit files

@@ -6,7 +6,7 @@ SWE: 5. Juli - 9. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 ## Beiträge der Teammitglieder
 
-![](https://raw.githubusercontent.com//<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/analytics/Contributions.png)
+![_Werden ab dem ersten Commit eingefügt_](https://raw.githubusercontent.com//<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/analytics/Contributions.png)
 
 ## Idee der Übung
 

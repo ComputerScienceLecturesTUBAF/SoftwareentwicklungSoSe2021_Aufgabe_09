@@ -4,9 +4,9 @@
 
 SWE: 5. Juli - 9. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
-## Beiträge der Teammitglieder
+## Beiträge
 
-> Wird mit dem ersten Commit automatisch eigenfügt
+
 
 ## Idee der Übung
 

@@ -6,7 +6,7 @@ jobs:
   generate_contributions_table:
     runs-on: ubuntu-latest
     # this condition avoids automatic adaptations of the README file in the template repository
-    if: github.event.pusher.name != 'SebastianZug'
+    #if: github.event.pusher.name != 'SebastianZug'
     steps:
       # Checkout repository
       - name: Check out current repository

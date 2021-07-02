@@ -4,11 +4,9 @@
 
 SWE: 5. Juli - 9. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
-## Beiträge
+## Beiträge der Teammitglieder
 
-| login        |   total_added_lines |   total_removed_lines |
-|:-------------|--------------------:|----------------------:|
-| SebastianZug |                 223 |                    28 |
+> Wird mit dem ersten Commit automatisch eigenfügt
 
 ## Idee der Übung
 

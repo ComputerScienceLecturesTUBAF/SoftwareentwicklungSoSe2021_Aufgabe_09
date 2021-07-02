@@ -1,3 +1,5 @@
+import os
+
 github_token = os.environ['TOKEN']
 git_repo_name = os.environ['CI_REPOSITORY_NAME']
 git_repo_owner = os.environ['CI_REPOSITORY_OWNER']

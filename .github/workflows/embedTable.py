@@ -13,8 +13,8 @@ default_data_folder = Path("repository/")
 if __name__ == "__main__":
     print(git_repo_owner, git_repo_name)
     repo = Utility.get_repo(git_repo_owner, git_repo_name, github_token, default_data_folder)
-    #Version.no_of_proceses = 8
-    #Version.generate_version_pandas_tables(repo = repo, data_root_dir=default_data_folder)
+    Version.no_of_proceses = 8
+    Version.generate_version_pandas_tables(repo = repo, data_root_dir=default_data_folder)
 
     users = Utility.get_users(default_data_folder)
     pdCommits = Version.get_version(data_root_dir=default_data_folder)

@@ -95,3 +95,4 @@ Geeignet wäre z.B. die "Stöckchen-Zahlen"-Klasse (s. Aufgabe 5.2), Sie können
 [https://docs.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test](https://docs.microsoft.com/de-de/dotnet/core/testing/unit-testing-with-dotnet-test)
 
 [https://dotnetuniversity.com/testing-net-core-code-xunit/](https://dotnetuniversity.com/testing-net-core-code-xunit/)
+

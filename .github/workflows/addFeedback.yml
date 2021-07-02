@@ -40,11 +40,11 @@ jobs:
       - name: Commit files
         run: |
              cd repository/Versions/repo
-             git pull --rebase
              git config --local user.email "action@github.com"
              git config --local user.name "GitHub Action"
              git add README.md
              git commit -m "Add new statistics" -a
+             git pull --rebase
              
       - name: Push changes
         uses: ad-m/github-push-action@master

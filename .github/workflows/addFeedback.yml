@@ -21,6 +21,9 @@ jobs:
              pipenv --python 3.8
              pipenv install github2pandas 
              pipenv install tabulate
+             pipenv install dataframe_image
+             pipenv install matplotlib
+             pipenv install lxml
              cat Pipfile
              
       - uses: FranzDiebold/github-env-vars-action@v2

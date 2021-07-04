@@ -6,7 +6,7 @@ SWE:
 
 ## Beiträge der Teammitglieder
 
-![Zur Übersicht](https://raw.githubusercontent.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/blob/analytics/Contributions.png)
+![Zur Übersicht](https://github.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/blob/analytics/Contributions.png)
 
 ## Idee der Übung
 

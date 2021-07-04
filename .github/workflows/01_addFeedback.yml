@@ -6,7 +6,7 @@ jobs:
   generate_contributions_table:
     runs-on: ubuntu-latest
     # this condition avoids automatic adaptations of the README file in the template repository
-    if: github.event.pusher.name != 'SebastianZug'
+    if: github.event.pusher.name != 'SebastianZug' && github.event.pusher.name != 'github-classroom[bot]'
     steps:
       # Checkout repository
       - name: Check out current repository
@@ -35,8 +35,8 @@ jobs:
         env: 
              TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-             cp  repository/Versions/repo/.github/workflows/embedTable.py .
-             pipenv run python embedTable.py 
+             cp  repository/Versions/repo/.github/workflows/01_embedTable.py .
+             pipenv run python 01_embedTable.py 
              mv Contributions.png repository/Versions/repo/Contributions.png
          
       - name: Commit files

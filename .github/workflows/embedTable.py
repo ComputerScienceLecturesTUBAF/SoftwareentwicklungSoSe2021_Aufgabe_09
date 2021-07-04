@@ -24,7 +24,11 @@ if __name__ == "__main__":
     pdEdits = pdEdits.merge(users[['anonym_uuid', 'login']], left_on='author', right_on='anonym_uuid')
     
     # Generate Table 
+    print(pdEdits)
     pdFileEdits = pdEdits.groupby(['commit_sha']).first()
+        
+    pdFileEdits = pdFileEdits.fillna(value=0)
+    print(pdFileEdits[['total_added_lines', 'total_removed_lines']])
     counts = pdFileEdits.groupby(['login']).agg({'total_added_lines': 'sum', 'total_removed_lines': 'sum'}).reset_index()
     
     blacklist = ["github-classroom[bot]","actions-user"]
@@ -34,5 +38,3 @@ if __name__ == "__main__":
                                     "total_removed_lines": "|  removed_lines  |"})
 
     dfi.export(counts, 'Contributions.png',  table_conversion='matplotlib')
-
-

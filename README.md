@@ -8,7 +8,7 @@ SWE: 12. Juli - 16. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 An dieser Stelle wollen wir den Teams ein Feedback geben und die Anteile der Codezeilen illustrieren, die die einzelnen Mitglieder bearbeitet haben. Dabei wird nicht zwischen Code, Kommentaren und Konfigurationen unterschieden.
 
-![Zur Übersicht](https://github.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/blob/analytics/Contributions.png)
+![Übersicht wird automatisch generiert](https://github.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/blob/analytics/Contributions.png)
 
 ## Idee der Übung
 

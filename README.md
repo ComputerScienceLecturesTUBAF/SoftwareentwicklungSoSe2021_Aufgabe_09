@@ -1,14 +1,8 @@
-# SoftwareentwicklungSoSe2021 Aufgabe 09
+# SoftwareentwicklungSoSe2022 Aufgabe 09
 
 ## Bearbeitungzeit
 
-SWE: 12. Juli - 16. Juli 2021 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
-
-## Beiträge der Teammitglieder
-
-An dieser Stelle wollen wir den Teams ein Feedback geben und die Anteile der Codezeilen illustrieren, die die einzelnen Mitglieder bearbeitet haben. Dabei wird nicht zwischen Code, Kommentaren und Konfigurationen unterschieden.
-
-![Übersicht wird automatisch generiert](https://github.com/<CI_REPOSITORY_OWNER>/<CI_REPOSITORY_NAME>/blob/analytics/Contributions.png)
+SWE: 11. Juli - 15. Juli 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 ## Idee der Übung
 

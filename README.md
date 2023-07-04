@@ -1,8 +1,8 @@
-# SoftwareentwicklungSoSe2022 Aufgabe 09
+# SoftwareentwicklungSoSe2023 Aufgabe 09
 
 ## Bearbeitungzeit
 
-SWE: 11. Juli - 15. Juli 2022 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
+SWE: 10. Juli - 14. Juli 2023 (Mm, BWM, ROB, BAI, BGIP, BBWL, BBL, MGIN)
 
 ## Idee der Übung
 
